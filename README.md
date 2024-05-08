@@ -6,13 +6,9 @@ This repository contains code for exploring and comparing two different architec
 ## Architectures
 ### Architecture 1:
 - **Base Network:** 1D Convolutional layers for feature extraction, followed by fully connected layers for classification.
-- **Implementation:** PyTorch
-- **Key Parameters:** Number of layers, strides, kernel size, number of filters, activation functions, pooling, etc.
 
 ### Architecture 2:
 - **Base Network:** Similar to Architecture 1, with the addition of a transformer encoder network on top, incorporating a multi-head self-attention mechanism.
-- **Implementation:** PyTorch
-- **Key Parameters:** Number of attention blocks, number of heads, MLP head for classification.
 
 ## Tasks and Evaluation
 1. **Training and Evaluation:** Train both architectures for 100 epochs and plot accuracy and loss per epoch using Weight and Biases (WandB) platform.
@@ -20,16 +16,6 @@ This repository contains code for exploring and comparing two different architec
 3. **Performance Metrics:** Compute Accuracy, Confusion Matrix, F1-scores, and AUC-ROC curve for the test set for all combinations of networks.
 4. **Parameter Analysis:** Report total trainable and non-trainable parameters for both architectures.
 5. **Hyper-parameter Tuning:** Conduct hyper-parameter tuning and report the best hyper-parameter set for improved performance.
-
-## Repository Structure
-- **data/:** Placeholder for dataset or instructions on how to obtain it.
-- **models/:**
-  - **architecture1.py:** Implementation of Architecture 1.
-  - **architecture2.py:** Implementation of Architecture 2.
-- **train.py:** Script for training and evaluation, including plots using WandB.
-- **evaluation.py:** Script for performance metrics calculation.
-- **hyperparameter_tuning.ipynb:** Jupyter notebook for hyper-parameter tuning.
-- **requirements.txt:** List of dependencies for reproducibility.
 
 ## Conclusion
 Through rigorous experimentation and analysis, this project aims to determine which architecture performs better for the given multi-class classification task. The findings will provide insights into the effectiveness of transformer-based architectures compared to traditional CNNs in handling sequential data for classification purposes.
