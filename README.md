@@ -22,12 +22,6 @@ Through rigorous experimentation and analysis, this project aims to determine wh
 
 ## How to Use
 1. Clone this repository.
-2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Prepare your dataset or follow the instructions provided in the `data/` directory.
-4. Execute the training script `train.py` to train the models and generate performance plots.
-5. Explore the evaluation script `evaluation.py` for calculating performance metrics.
-6. Utilize the Jupyter notebook `hyperparameter_tuning.ipynb` for hyper-parameter tuning.
+2. And run the code in IPYNB file by adjusting the path to data accordingly.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
